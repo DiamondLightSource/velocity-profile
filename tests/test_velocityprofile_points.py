@@ -58,7 +58,7 @@ def point_velocities(
     axis_mapping: Dict[str, MotorInfo], frame: Frames, entry: bool = True
 ) -> Dict[str, List[float]]:
     """Find the velocities of each axis over the entry/exit of current point"""
-    velocities = {}
+    velocities: Dict[str, List[float]] = {}
     for axis_name, motor_info in axis_mapping.items():
         uppers = frame.upper[axis_name]
         points = frame.midpoints[axis_name]
