@@ -41,7 +41,7 @@ dev = [
 velocity-profile = "velocity_profile.__main__:main"
 
 [project.urls]
-GitHub = "https://github.com/adhowell/velocity-profile"
+GitHub = "https://github.com/DiamondLightSource/velocity-profile"
 
 [[project.authors]] # Further authors may be added by duplicating this section
 email = "adam.howell@diamond.ac.uk"

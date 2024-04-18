@@ -9,7 +9,7 @@ distribution_name: velocity-profile
 docker: false
 docs_type: README
 git_platform: github.com
-github_org: adhowell
+github_org: DiamondLightSource
 package_name: velocity_profile
 pypi: true
 repo_name: velocity-profile
