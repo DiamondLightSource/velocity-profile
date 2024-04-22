@@ -17,7 +17,7 @@ description = "Module for calculating velocity profile"
 dependencies = [
     "numpy",
     "scanspec",
-    "pydantic<2.0"
+    "pydantic<3.0"
 ]
 dynamic = ["version"]
 license.file = "LICENSE"
