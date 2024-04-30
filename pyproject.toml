@@ -15,9 +15,7 @@ classifiers = [
 ]
 description = "Module for calculating velocity profile"
 dependencies = [
-    "numpy",
-    "scanspec",
-    "pydantic<2.0"
+    "numpy"
 ]
 dynamic = ["version"]
 license.file = "LICENSE"
@@ -35,6 +33,8 @@ dev = [
     "ruff",
     "tox-direct",
     "types-mock",
+    "scanspec",
+    "pydantic<2.0"
 ]
 
 [project.scripts]
