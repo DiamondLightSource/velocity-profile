@@ -34,7 +34,7 @@ dev = [
     "tox-direct",
     "types-mock",
     "scanspec",
-    "pydantic<2.0"
+    "pydantic<3.0"
 ]
 
 [project.scripts]
